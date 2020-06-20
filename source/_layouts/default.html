@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8"/>
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width"/>
+
+    <title>{% block title %}{{ page.title }}{% endblock %} &mdash; {{ site.title }} &mdash; {{ site.subtitle }}</title>
+
+    <!-- Included CSS Files (Compressed) -->
+    <link rel="stylesheet" href="stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+
+    <script src="javascripts/modernizr.foundation.js"></script>
+
+    <link rel="stylesheet" href="ligature.css">
+
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css'/>
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- ######################## Main Menu ######################## -->
+<nav>
+    <div class="twelve columns header_nav">
+        <div class="row">
+
+            <ul id="menu-header" class="nav-bar horizontal">
+
+                <li {% if page.url == "/." %} class="active"{% endif %}><a href="index.html">Home</a></li>
+
+                <li class="has-flyout">
+                    <a href="#">Page de référence</a><a href="#" class="flyout-toggle"></a>
+                    <ul class="flyout">
+                        <li><a href="page_reference2.html">Page de référence 2</a></li>
+                    </ul>
+                </li>
+                <li {% if page.url == "/page_reference.html" %} class="active"{% endif %}><a href="page_reference.html">Page de référence 1</a></li>
+            </ul>
+
+            <script type="text/javascript">
+                //<![CDATA[
+                $('ul#menu-header').nav - bar();
+                //]]>
+            </script>
+
+        </div>
+    </div>
+</nav>
+
+<!-- ######################## Content ######################## -->
+{% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+
+<!-- ######################## Footer ######################## -->
+<footer>
+
+    <div class="row">
+
+        <div class="twelve columns footer">
+            Pied de page
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ######################## Scripts ######################## -->
+
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/foundation.min.js" type="text/javascript"></script>
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js" type="text/javascript"></script>
+</body>
+</html>
