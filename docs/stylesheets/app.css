@@ -1,6 +1,6 @@
 /* Artfully masterminded by ZURB  */
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
@@ -12,6 +12,9 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
+p {
+    font-size: 1.2em;
+}
 .with-margin-top {
    margin-top: 20px;
 }
@@ -43,6 +46,13 @@
    font-size: 1.5em;
    padding: 8px 0px;
    margin: 0px;
+}
+.section_dark p {
+    color: #d9d9d9;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
 }
 
 /* -----------------------------------------
