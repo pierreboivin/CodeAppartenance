@@ -15,7 +15,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width"/>
 
-    <title>{% block title %}{{ page.title }}{% endblock %} &mdash; {{ site.title }} &mdash; {{ site.subtitle }}</title>
+    <title>La Loi sur les Indiens &mdash; Code d&#039;appartenance &mdash; Premières Nations au Canada</title>
 
     <!-- Included CSS Files (Compressed) -->
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
@@ -45,12 +45,12 @@
 
             <ul id="menu-header" class="nav-bar horizontal">
 
-                <li {% if page.url == "/." %} class="active"{% endif %}><a href="index.html">Accueil</a></li>
+                <li ><a href="index.html">Accueil</a></li>
 
                 <!--<li><a href="page_reference.html">Page de référence 1</a></li>
                 <li><a href="page_reference2.html">Page de référence 2</a></li>-->
-                <li {% if page.url == "/la_constitution.html" %} class="active"{% endif %}><a href="la_constitution_souverainete.html">La Constitution canadienne et les autochtones</a></li>
-                <li {% if page.url == "/loi_indiens.html" %} class="active"{% endif %}><a href="loi_indiens.html">La Loi sur les Indiens</a></li>
+                <li ><a href="la_constitution_souverainete.html">La Constitution canadienne et les autochtones</a></li>
+                <li  class="active"><a href="loi_indiens.html">La Loi sur les Indiens</a></li>
             </ul>
 
             <script type="text/javascript">
@@ -64,7 +64,14 @@
 </nav>
 
 <!-- ######################## Content ######################## -->
-{% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+<header>
+    <h1 class="welcome_text">La Loi sur les Indiens</h1>
+</header>
+
+
+<!-- page wrap -->
+<div class="ten columns">
+</div>
 
 <!-- ######################## Footer ######################## -->
 <footer>

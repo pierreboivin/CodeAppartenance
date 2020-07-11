@@ -12,8 +12,38 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
+.with-margin-top {
+   margin-top: 20px;
+}
+.nav-bar.vertical > li {
+   padding-bottom: 1.1em;
+}
+.nav-bar.vertical > li > a {
+   line-height: 1.2em;
+}
+.panel.comment {
+   border-radius: 15px;
+   background-color: rgb(75, 75, 75);
+}
+.panel.comment h2 {
+   font-size: 1.5em;
+   padding: 8px 0px;
+   margin: 0px;
+   color: rgb(224, 224, 224);
+}
+.panel.comment p {
+   font-style: italic;
+   color: rgb(224, 224, 224);
+}
 
-
+.panel.document {
+   border-radius: 15px;
+}
+.panel.document h2 {
+   font-size: 1.5em;
+   padding: 8px 0px;
+   margin: 0px;
+}
 
 /* -----------------------------------------
    Page Name 1

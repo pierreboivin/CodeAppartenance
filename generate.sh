@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./vendor/bin/sculpin generate --output-dir=docs
+./vendor/bin/sculpin generate --watch --output-dir=docs
