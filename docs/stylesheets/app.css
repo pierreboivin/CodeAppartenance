@@ -55,6 +55,31 @@ img.center {
     margin: 0 auto;
 }
 
+.banner {
+    padding: 0px;
+}
+.hero-section {
+    background: url("../images/banner-content.png") 50% no-repeat;
+    background-size: cover;
+    height: 20vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
