@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "25b0a8e74301dc97b69fe4c1002df36f",
+    "content-hash": "2d1b18c2e9511e45ea4d6a67455653c6",
     "packages": [
         {
             "name": "dflydev/ant-path-matcher",
@@ -590,6 +590,45 @@
                 "textile"
             ],
             "time": "2019-01-26T17:03:58+00:00"
+        },
+        {
+            "name": "pb/sculpin-meta-navigation-bundle",
+            "version": "9999999-dev",
+            "dist": {
+                "type": "path",
+                "url": "./app/extensions/sculpin-breadcrumb",
+                "reference": "db8535f05fd201977a805c8f477594afefb918b8",
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PB\\Sculpin\\Bundle\\MetaNavigationBundle\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Bücker",
+                    "email": "jan@buecker.io"
+                }
+            ],
+            "description": "Sculpin Meta Navigation Bundle",
+            "keywords": [
+                "blog",
+                "blogging",
+                "meta",
+                "navigation",
+                "pages",
+                "site",
+                "static",
+                "tree"
+            ]
         },
         {
             "name": "psr/container",
@@ -2482,7 +2521,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pb/sculpin-meta-navigation-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

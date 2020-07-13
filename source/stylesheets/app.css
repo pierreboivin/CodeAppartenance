@@ -20,6 +20,8 @@ p, li {
     margin-top: 20px;
 }
 
+
+/* Navigation et fil d'ariane */
 .nav-bar > li.active {
     background: none;
 }
@@ -41,7 +43,11 @@ p, li {
 .nav-bar.vertical > li ul li a {
     padding-left: 35px;
 }
+ul.breadcrumbs {
+    margin-top: 20px;
+}
 
+/* Bloc de contenu */
 .panel.comment {
     border-radius: 15px;
     background-color: rgb(75, 75, 75);
@@ -78,6 +84,8 @@ img.center {
     margin: 0 auto;
 }
 
+
+/* Bannières  */
 .banner {
     padding: 0px;
 }

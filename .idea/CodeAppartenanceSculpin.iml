@@ -14,6 +14,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/janbuecker/sculpin-meta-navigation-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/michelf/php-markdown" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/netcarver/textile" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pb/sculpin-meta-navigation-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />

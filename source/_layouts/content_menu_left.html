@@ -32,6 +32,20 @@
     </div>
 </div>
 <div class="nine columns">
+    <nav role="navigation">
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Accueil</a></li>
+            {% for title, breadcrumbs in page.breadcrumb %}
+                {% if page.menu_title == title %}
+                    {% for item in breadcrumbs %}
+                        <li><a href="{{ item.url|trim('/') }}">{{ item.menu_title }}</a></li>
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+            <li><span>{{ page.menu_title }}</span></li>
+        </ul>
+    </nav>
+
     {% block content %}{% endblock %}
 </div>
 

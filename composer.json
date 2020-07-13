@@ -3,6 +3,12 @@
     "description": "Code Appartenant Sculpin website",
     "type": "sculpin-skeleton",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./app/extensions/*"
+        }
+    ],
     "authors": [
         {
             "name": "Dragonfly Development Inc.",
@@ -17,7 +23,8 @@
     ],
     "require": {
         "sculpin/sculpin": "^3.0",
-        "janbuecker/sculpin-meta-navigation-bundle": "^0.7"
+        "janbuecker/sculpin-meta-navigation-bundle": "^0.7",
+        "pb/sculpin-meta-navigation-bundle": "*@dev"
     },
     "scripts": {
         "publish": [

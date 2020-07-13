@@ -5,7 +5,8 @@ class SculpinKernel extends \Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKer
     protected function getAdditionalSculpinBundles(): array
     {
         return [
-            'Janbuecker\Sculpin\Bundle\MetaNavigationBundle\SculpinMetaNavigationBundle'
+            'Janbuecker\Sculpin\Bundle\MetaNavigationBundle\SculpinMetaNavigationBundle',
+            'PB\Sculpin\Bundle\MetaNavigationBundle\SculpinBreadcrumbNavigationBundle',
         ];
     }
 }
