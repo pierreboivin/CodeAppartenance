@@ -15,41 +15,64 @@
 p, li {
     font-size: 1.2em;
 }
+
 .with-margin-top {
-   margin-top: 20px;
+    margin-top: 20px;
 }
+
+.nav-bar > li.active {
+    background: none;
+}
+
 .nav-bar.vertical > li {
-   margin-bottom: 1.1em;
+}
+
+.nav-bar.vertical>li.active {
+    border-right: 0px;
 }
 .nav-bar.vertical > li > a {
-   line-height: 1.2em;
+    line-height: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+.nav-bar.vertical > li ul {
+    margin-left: 0px;
+}
+.nav-bar.vertical > li ul li a {
+    padding-left: 35px;
+}
+
 .panel.comment {
-   border-radius: 15px;
-   background-color: rgb(75, 75, 75);
+    border-radius: 15px;
+    background-color: rgb(75, 75, 75);
 }
+
 .panel.comment h2 {
-   font-size: 1.5em;
-   padding: 8px 0px;
-   margin: 0px;
-   color: rgb(224, 224, 224);
+    font-size: 1.5em;
+    padding: 8px 0px;
+    margin: 0px;
+    color: rgb(224, 224, 224);
 }
+
 .panel.comment p {
-   font-style: italic;
-   color: rgb(224, 224, 224);
+    font-style: italic;
+    color: rgb(224, 224, 224);
 }
 
 .panel.document {
-   border-radius: 15px;
+    border-radius: 15px;
 }
+
 .panel.document h2 {
-   font-size: 1.5em;
-   padding: 8px 0px;
-   margin: 0px;
+    font-size: 1.5em;
+    padding: 8px 0px;
+    margin: 0px;
 }
+
 .section_dark p {
     color: #d9d9d9;
 }
+
 img.center {
     display: block;
     margin: 0 auto;
@@ -58,6 +81,7 @@ img.center {
 .banner {
     padding: 0px;
 }
+
 .hero-section {
     background: url("../images/banner-content.png") 50% no-repeat;
     background-size: cover;
@@ -73,18 +97,16 @@ img.center {
     -ms-flex-pack: center;
     justify-content: center;
 }
+
 .hero-section .hero-section-text {
     color: #fefefe;
     text-shadow: 1px 1px 2px #0a0a0a;
 }
 
 
-
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
-
-
 
 
 /* -----------------------------------------

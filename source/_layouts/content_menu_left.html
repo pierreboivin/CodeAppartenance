@@ -16,7 +16,15 @@
             {% for parentItem in page.menu %}
                 {% if parentItem.menu_title == page.group or parentItem.menu_title == page.menu_title %}
                     {% for item in parentItem.children %}
-                        <li {% if page.menu_title== item.menu_title %} class="active" {% endif %}><a href="{{item.url|trim('/')}}">{{ item.menu_title }}</a></li>
+                        <li {% if page.menu_title == item.menu_title or page.subgroup == item.menu_title %} class="active" {% endif %}><a href="{{item.url|trim('/')}}">{{ item.menu_title }}</a>
+                            {% if page.menu_title == item.menu_title or page.subgroup == item.menu_title %}
+                            <ul>
+                                {% for subitem in item.children %}
+                                    <li {% if page.menu_title == subitem.menu_title %} class="active" {% endif %}><a href="{{subitem.url|trim('/')}}">{{ subitem.menu_title}}</a></li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
                     {% endfor %}
                 {% endif %}
             {% endfor %}
