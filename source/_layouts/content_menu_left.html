@@ -1,0 +1,30 @@
+{% extends 'default' %}
+
+{% block content_wrapper %}
+
+<header class="banner">
+    <div class="hero-section">
+        <div class="hero-section-text">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+</header>
+
+<div class="three columns">
+    <div class="panel with-margin-top">
+        <ul class="nav-bar vertical">
+            {% for parentItem in page.menu %}
+                {% if parentItem.menu_title == page.group or parentItem.menu_title == page.menu_title %}
+                    {% for item in parentItem.children %}
+                        <li {% if page.menu_title== item.menu_title %} class="active" {% endif %}><a href="{{item.url|trim('/')}}">{{ item.menu_title }}</a></li>
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="nine columns">
+    {% block content %}{% endblock %}
+</div>
+
+{% endblock %}

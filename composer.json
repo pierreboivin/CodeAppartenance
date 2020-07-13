@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "sculpin/sculpin": "^3.0"
+        "sculpin/sculpin": "^3.0",
+        "janbuecker/sculpin-meta-navigation-bundle": "^0.7"
     },
     "scripts": {
         "publish": [

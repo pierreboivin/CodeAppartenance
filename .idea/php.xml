@@ -47,6 +47,8 @@
       <path value="$PROJECT_DIR$/vendor/dflydev/canal" />
       <path value="$PROJECT_DIR$/vendor/dflydev/ant-path-matcher" />
       <path value="$PROJECT_DIR$/vendor/sculpin/sculpin" />
+      <path value="$PROJECT_DIR$/vendor/janbuecker/sculpin-meta-navigation-bundle" />
     </include_path>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
 </project>

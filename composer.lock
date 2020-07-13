@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cdda3b0773159e30d8d9ad368c47c41",
+    "content-hash": "25b0a8e74301dc97b69fe4c1002df36f",
     "packages": [
         {
             "name": "dflydev/ant-path-matcher",
@@ -445,6 +445,52 @@
                 "event-emitter"
             ],
             "time": "2017-07-23T21:35:13+00:00"
+        },
+        {
+            "name": "janbuecker/sculpin-meta-navigation-bundle",
+            "version": "v0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/janbuecker/sculpin-meta-navigation-bundle.git",
+                "reference": "ab0d8c42476b6501a2661271fe6cf807666e6996"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/janbuecker/sculpin-meta-navigation-bundle/zipball/ab0d8c42476b6501a2661271fe6cf807666e6996",
+                "reference": "ab0d8c42476b6501a2661271fe6cf807666e6996",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Janbuecker\\Sculpin\\Bundle\\MetaNavigationBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Bücker",
+                    "email": "jan@buecker.io"
+                }
+            ],
+            "description": "Sculpin Meta Navigation Bundle",
+            "keywords": [
+                "blog",
+                "blogging",
+                "meta",
+                "navigation",
+                "pages",
+                "site",
+                "static",
+                "tree"
+            ],
+            "time": "2020-02-18T14:34:24+00:00"
         },
         {
             "name": "michelf/php-markdown",

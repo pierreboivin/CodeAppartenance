@@ -12,14 +12,14 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-p {
+p, li {
     font-size: 1.2em;
 }
 .with-margin-top {
    margin-top: 20px;
 }
 .nav-bar.vertical > li {
-   padding-bottom: 1.1em;
+   margin-bottom: 1.1em;
 }
 .nav-bar.vertical > li > a {
    line-height: 1.2em;
