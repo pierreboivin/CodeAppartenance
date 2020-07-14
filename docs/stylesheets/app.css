@@ -20,6 +20,13 @@ p, li {
     margin-top: 20px;
 }
 
+/* Titles */
+.heading_supersize {
+    font-size: 80px;
+}
+.welcome_text {
+    font-size: 26px;
+}
 
 /* Navigation et fil d'ariane */
 .nav-bar > li.active {
@@ -29,20 +36,24 @@ p, li {
 .nav-bar.vertical > li {
 }
 
-.nav-bar.vertical>li.active {
+.nav-bar.vertical > li.active {
     border-right: 0px;
 }
+
 .nav-bar.vertical > li > a {
     line-height: 1.2em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .nav-bar.vertical > li ul {
     margin-left: 0px;
 }
+
 .nav-bar.vertical > li ul li a {
     padding-left: 35px;
 }
+
 ul.breadcrumbs {
     margin-top: 20px;
 }
