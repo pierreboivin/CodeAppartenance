@@ -118,22 +118,22 @@
   });
 
   // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
+ /* $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
-  });
+  });*/
 
   // Skills section
-  $('.skills-content').waypoint(function() {
+  /*$('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
     offset: '80%'
-  });
+  });*/
 
   // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
+  /*$(".clients-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
@@ -148,10 +148,10 @@
         items: 6
       }
     }
-  });
+  });*/
 
   // Porfolio isotope and filter
-  $(window).on('load', function() {
+  /*$(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
       layoutMode: 'fitRows'
@@ -171,15 +171,15 @@
     $(document).ready(function() {
       $('.venobox').venobox();
     });
-  });
+  });*/
 
   // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  /*$(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
     items: 1
-  });
+  });*/
 
   // Init AOS
   function aos_init() {
