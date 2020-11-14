@@ -41,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 27px;
   padding-left: 10px;
 }
+h2.titre-green {
+  color: #94c045 !important;
+  text-align: left;
+  margin-bottom: 0.9rem;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
