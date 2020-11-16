@@ -1663,6 +1663,7 @@ section {
 .blog .entry .entry-content .read-more {
   -moz-text-align-last: right;
   text-align-last: right;
+  margin-top: 1.4em;
 }
 
 .blog .entry .entry-content .read-more a {
@@ -2266,6 +2267,7 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  font-size: 1em;
 }
 
 #footer .credits {
@@ -2273,4 +2275,13 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+#footer .top {
+  color: #94c045;
+  font-size: 1.2em;
+}
+
+#footer .bottom {
+  font-size: 1em;
 }
