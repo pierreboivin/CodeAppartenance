@@ -46,6 +46,9 @@ h2.titre-green {
   text-align: left;
   margin-bottom: 0.9rem;
 }
+.no-wrap {
+  white-space: nowrap;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
