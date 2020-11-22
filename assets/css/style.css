@@ -60,7 +60,7 @@ h2.titre-green {
 .make-me-sticky {
   position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+	top: 10px;
     
   padding: 0 15px;
 }
@@ -2315,7 +2315,7 @@ section {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   #main {
     margin-top: 20px;
   }
@@ -2341,5 +2341,13 @@ section {
   }
   .pattern-banner-img {
     top: -55px;
+  }
+  .col-lg-4 {
+    flex: none;
+    max-width: none;
+  }
+  .col-lg-8 {
+    flex: none;
+    max-width: none;
   }
 }
